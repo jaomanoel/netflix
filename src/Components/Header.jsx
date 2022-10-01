@@ -199,7 +199,7 @@ function Header() {
 
                 <div className={invisibleHeader ? 'header-responsive' : 'header-responsive invisible'}>
                     <div className='logo'>
-                        <img src="/netflix.png" alt="logo Netflix" />
+                        <img src="public/netflix.png" alt="logo Netflix" />
                     </div>
                     
                     <div className='navegation' onMouseEnter={handleNavegation} onMouseLeave={handleNavegation}>

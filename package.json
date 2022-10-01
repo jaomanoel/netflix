@@ -1,11 +1,13 @@
 {
-  "homepage": "http://jaomanoel.github.io/netflix",
+  "homepage": "http://jaomanoel.github.io/netflix/",
   "name": "project-netflix",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "start": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist/index.html",
     "build": "vite build",
     "preview": "vite preview"
   },

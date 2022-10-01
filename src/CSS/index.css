@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    text-decoration: none;
+    border: none;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+
+    overflow-x: hidden;
+    font-size: 62.5%;
+}
+
+body{
+    padding: 0 2rem;
+    background-color: #141414;
+}

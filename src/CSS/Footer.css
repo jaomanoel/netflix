@@ -1,0 +1,258 @@
+@media screen and (min-width: 1200px) {
+    .Footer{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 0 20rem 0 20rem;
+    }
+
+    .Footer .icons{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .Footer .icons svg{
+        width: 2.5rem;
+        height: 2.5rem;
+        fill: #ffff;
+        padding: 1rem 2rem;
+    }
+    
+    .Footer .termos ul{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        flex-direction: column;
+        flex-wrap: wrap;
+        list-style-type: none;
+        height: 13rem;
+    }
+    
+    .Footer .termos li{
+        padding: 1rem 10rem 1rem 0;
+    }
+    
+    .Footer .termos ul li a{
+        font-size: 1.6rem;
+        color: gray;
+    }
+    
+    .Footer .termos ul li a:hover{
+        text-decoration: underline;
+    }
+    
+    .Footer button{
+        padding: 1rem;
+        margin: 3rem 0;
+        background-color: transparent;
+        color: gray;
+        border: .1rem solid gray;
+        cursor: pointer;
+    }
+    
+    .Footer button:hover{
+        color: #ffff;
+    }
+    
+    .Footer .copywrite{
+        font-size: 1.4rem;
+        color: gray;
+        padding-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .Footer{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 0 5rem 0 5rem;
+    }
+
+    .Footer .icons{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .Footer .icons svg{
+        width: 2.5rem;
+        height: 2.5rem;
+        fill: #ffff;
+        padding: 1rem 2rem;
+    }
+    
+    .Footer .termos ul{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        flex-direction: column;
+        flex-wrap: wrap;
+        list-style-type: none;
+        height: 13rem;
+    }
+    
+    .Footer .termos li{
+        padding: 1rem 4rem 1rem 0;
+    }
+    
+    .Footer .termos ul li a{
+        font-size: 1.6rem;
+        color: gray;
+    }
+    
+    .Footer .termos ul li a:hover{
+        text-decoration: underline;
+    }
+    
+    .Footer button{
+        padding: 1rem;
+        margin: 3rem 0;
+        background-color: transparent;
+        color: gray;
+        border: .1rem solid gray;
+        cursor: pointer;
+    }
+    
+    .Footer button:hover{
+        color: #ffff;
+    }
+    
+    .Footer .copywrite{
+        font-size: 1.4rem;
+        color: gray;
+        padding-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .Footer{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 0 5rem 0 5rem;
+    }
+
+    .Footer .icons{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .Footer .icons svg{
+        width: 2.5rem;
+        height: 2.5rem;
+        fill: #ffff;
+        padding: 1rem 2rem;
+    }
+    
+    .Footer .termos ul{
+        display: flex;
+        align-items: baseline;
+        flex-direction: column;
+        flex-wrap: wrap;
+        list-style-type: none;
+        height: 25rem;
+        justify-content: space-between;
+        align-content: flex-start;
+    }
+    
+    .Footer .termos li{
+        width: 100%;
+    }
+    
+    .Footer .termos ul li a{
+        font-size: 1.6rem;
+        color: gray;
+    }
+    
+    .Footer .termos ul li a:hover{
+        text-decoration: underline;
+    }
+    
+    .Footer button{
+        padding: 1rem;
+        margin: 3rem 0;
+        background-color: transparent;
+        color: gray;
+        border: .1rem solid gray;
+        cursor: pointer;
+    }
+    
+    .Footer button:hover{
+        color: #ffff;
+    }
+    
+    .Footer .copywrite{
+        font-size: 1.4rem;
+        color: gray;
+        padding-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .Footer{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 0 4rem 0 4rem;
+    }
+
+    .Footer .icons{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .Footer .icons svg{
+        width: 2.5rem;
+        height: 2.5rem;
+        fill: #ffff;
+        padding: 1rem 2rem;
+    }
+    
+    .Footer .termos ul{
+        display: flex;
+        align-items: baseline;
+        flex-direction: column;
+        flex-wrap: wrap;
+        list-style-type: none;
+        height: 50rem;
+        justify-content: space-between;
+        align-content: flex-start;
+    }
+    
+    .Footer .termos li{
+        width: 100%;
+    }
+    
+    .Footer .termos ul li a{
+        font-size: 1.6rem;
+        color: gray;
+    }
+    
+    .Footer .termos ul li a:hover{
+        text-decoration: underline;
+    }
+    
+    .Footer button{
+        padding: 1rem;
+        margin: 3rem 0;
+        background-color: transparent;
+        color: gray;
+        border: .1rem solid gray;
+        cursor: pointer;
+    }
+    
+    .Footer button:hover{
+        color: #ffff;
+    }
+    
+    .Footer .copywrite{
+        font-size: 1.4rem;
+        color: gray;
+        padding-bottom: 3rem;
+    }
+}
+

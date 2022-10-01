@@ -1,0 +1,323 @@
+.Preview{
+    margin-left: -20px;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media screen and (min-width: 1150px) {
+    .Preview .preview-container{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2rem;
+        width: 100%;
+        gap: 0.5rem;
+        height: 100%;
+        margin: -8rem 0 0 0;
+    }
+    
+    .Preview .preview-vertical{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 104vw;
+        height: 120%;
+        padding: 0;
+        background-image: linear-gradient(to top, #141414 10%, transparent 90%);
+    }
+    
+    
+    .Preview .preview-vertical .preview-horizontal{
+        height: 120%;
+        width: inherit;
+        background-image: linear-gradient(to right, #141414 30%, transparent 70%);
+    }
+    
+    .Preview .preview-container .content{
+        position: relative;
+        top: -10%;
+        left: 3rem;
+        z-index: 10;
+    }
+    .Preview .preview-container h1{
+        font-size: 5rem;
+        font-weight: bold;
+        color: #fff;
+        padding-left: 1rem;
+    }
+    
+    .Preview .preview-container .preview-info{
+        display: flex;
+        align-items: center;
+        font-size: 1.3rem;
+        color: white;
+        padding: .5rem 0 1rem 0;
+        font-weight: bold;
+    }
+    
+    .Preview .preview-container span{
+        color: #46d369;
+        padding: 1rem;
+    }
+    
+    .Preview .preview-container .preview-desc{
+        color: #999;
+        padding: 0 1rem;
+        width: 50rem;
+        font-size: 2rem;
+    }
+    
+    .Preview .preview-container .preview-buttons{
+        display: flex;
+        align-items: center;
+        padding: 1rem 0 0 1rem;
+    }
+    
+    .Preview .preview-container .preview-buttons div{
+        display: flex;
+        align-items: center;
+        gap: .2rem;
+        margin-right: 1rem;
+        box-sizing: border-box;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    
+    .Preview .preview-container .preview-buttons .buttons-play{
+        background-color: white;
+        border-radius: .5rem;
+        color: black;
+        font-weight: bold;
+        padding: 1rem;
+    }
+    
+    .Preview .preview-container .preview-buttons .buttons-play:hover{
+        background-color: rgba(255, 255, 255, 0.817);
+    }
+    
+    .Preview .preview-container .preview-buttons .buttons-info{
+        background-color: rgba(128, 128, 128, 0.891);
+        color: white;
+        border-radius: .5rem;
+        font-weight: bold;
+        padding: 1rem;
+    }
+    
+    .Preview .preview-container .preview-buttons .buttons-info:hover{
+        background-color: rgba(128, 128, 128, 0.464);
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .Preview .preview-container{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2rem;
+        width: 100%;
+        gap: 0.5rem;
+        height: 100%;
+        margin: -8rem 0 0 0;
+    }
+    
+    .Preview .preview-vertical{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 104vw;
+        height: 120%;
+        padding: 0;
+        background-image: linear-gradient(to top, #141414 10%, transparent 90%);
+    }
+    
+    
+    .Preview .preview-vertical .preview-horizontal{
+        height: 120%;
+        width: inherit;
+        background-image: linear-gradient(to right, #141414 30%, transparent 70%);
+    }
+    
+    .Preview .preview-container .content{
+        position: relative;
+        top: -10%;
+        left: 3rem;
+        z-index: 10;
+    }
+    .Preview .preview-container h1{
+        font-size: 4rem;
+        font-weight: bold;
+        color: #fff;
+        padding-left: 1rem;
+    }
+    
+    .Preview .preview-container .preview-info{
+        display: flex;
+        align-items: center;
+        font-size: 1.3rem;
+        color: white;
+        padding: .5rem 0 1rem 0;
+        font-weight: bold;
+    }
+    
+    .Preview .preview-container span{
+        color: #46d369;
+        padding: 1rem;
+    }
+    
+    .Preview .preview-container .preview-desc{
+        color: #999;
+        padding: 0 1rem;
+        width: 50rem;
+        font-size: 2rem;
+    }
+    
+    .Preview .preview-container .preview-buttons{
+        display: flex;
+        align-items: center;
+        padding: 1rem 0 0 1rem;
+    }
+    
+    .Preview .preview-container .preview-buttons div{
+        display: flex;
+        align-items: center;
+        gap: .2rem;
+        margin-right: 1rem;
+        box-sizing: border-box;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    
+    .Preview .preview-container .preview-buttons .buttons-play{
+        background-color: white;
+        border-radius: .5rem;
+        color: black;
+        font-weight: bold;
+        padding: 1rem;
+    }
+    
+    .Preview .preview-container .preview-buttons .buttons-play:hover{
+        background-color: rgba(255, 255, 255, 0.817);
+    }
+    
+    .Preview .preview-container .preview-buttons .buttons-info{
+        background-color: rgba(128, 128, 128, 0.891);
+        color: white;
+        border-radius: .5rem;
+        font-weight: bold;
+        padding: 1rem;
+    }
+    
+    .Preview .preview-container .preview-buttons .buttons-info:hover{
+        background-color: rgba(128, 128, 128, 0.464);
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .Preview .preview-container{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2rem;
+        width: 100%;
+        gap: 0.5rem;
+        height: 100%;
+        margin: -8rem 0 0 0;
+    }
+    
+    .Preview .preview-vertical{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 110vw;
+        display: none;
+        height: 120%;
+        padding: 0;
+        background-image: linear-gradient(to top, #141414 10%, transparent 90%);
+    }
+    
+    
+    .Preview .preview-vertical .preview-horizontal{
+        height: 120%;
+        width: inherit;
+        background-image: linear-gradient(to right, #141414 30%, transparent 70%);
+    }
+    
+    .Preview .preview-container .content{
+        position: relative;
+        top: -10%;
+        left: 3rem;
+        z-index: 10;
+    }
+    .Preview .preview-container h1{
+        font-size: 3rem;
+        font-weight: bold;
+        color: #fff;
+        padding-left: 1rem;
+    }
+    
+    .Preview .preview-container .preview-info{
+        display: flex;
+        align-items: center;
+        font-size: 1.3rem;
+        color: white;
+        padding: .5rem 0 1rem 0;
+        font-weight: bold;
+    }
+    
+    .Preview .preview-container span{
+        color: #46d369;
+        padding: 1rem;
+    }
+    
+    .Preview .preview-container .preview-desc{
+        color: white;
+        padding: 0 1rem;
+        width: 50rem;
+        font-size: 1.5rem;
+        width: 52%;
+    }
+    
+    .Preview .preview-container .preview-buttons{
+        display: flex;
+        align-items: center;
+        padding: 1rem 0 0 1rem;
+    }
+    
+    .Preview .preview-container .preview-buttons div{
+        display: flex;
+        align-items: center;
+        gap: .2rem;
+        margin-right: 1rem;
+        box-sizing: border-box;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    
+    .Preview .preview-container .preview-buttons .buttons-play{
+        background-color: white;
+        border-radius: .5rem;
+        color: black;
+        font-weight: bold;
+        padding: 1rem;
+    }
+    
+    .Preview .preview-container .preview-buttons .buttons-play:hover{
+        background-color: rgba(255, 255, 255, 0.817);
+    }
+    
+    .Preview .preview-container .preview-buttons .buttons-info{
+        background-color: rgba(128, 128, 128, 0.891);
+        color: white;
+        border-radius: .5rem;
+        font-weight: bold;
+        padding: 1rem;
+    }
+    
+    .Preview .preview-container .preview-buttons .buttons-info:hover{
+        background-color: rgba(128, 128, 128, 0.464);
+    }
+}

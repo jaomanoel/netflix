@@ -50,7 +50,7 @@ function Header() {
             <div className='header'>
                 <div className={invisibleHeader ? 'header-normal' : 'header-normal invisible'}>
                     <div className='logo'>
-                        <img src="/netflix.png" alt="logo Netflix" />
+                        <img src="/public/netflix.png" alt="logo Netflix" />
                     </div>
 
                     <div className='nav'>
@@ -199,7 +199,7 @@ function Header() {
 
                 <div className={invisibleHeader ? 'header-responsive' : 'header-responsive invisible'}>
                     <div className='logo'>
-                        <img src="public/netflix.png" alt="logo Netflix" />
+                        <img src="/public/netflix.png" alt="logo Netflix" />
                     </div>
                     
                     <div className='navegation' onMouseEnter={handleNavegation} onMouseLeave={handleNavegation}>

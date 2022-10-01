@@ -233,7 +233,6 @@
         top: 0;
         left: 0;
         width: 110vw;
-        display: none;
         height: 120%;
         padding: 0;
         background-image: linear-gradient(to top, #141414 10%, transparent 90%);
@@ -241,6 +240,7 @@
     
     
     .Preview .preview-vertical .preview-horizontal{
+        display: none;
         height: 120%;
         width: inherit;
         background-image: linear-gradient(to right, #141414 30%, transparent 70%);

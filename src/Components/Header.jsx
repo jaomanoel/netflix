@@ -124,7 +124,7 @@ function Header() {
                             </a>    
                             <a href="#" className='profile' onMouseEnter={handleProfile} onMouseLeave={handleProfile}>
                                 <div>
-                                    <img src="/profile.png" alt="profile" />
+                                    <img src="./profile.png" alt="profile" />
                                 </div>
                                 <div>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
@@ -140,7 +140,7 @@ function Header() {
                                         <div>
                                             <a href="#">
                                                 <div>
-                                                    <img src="/profile2.png" alt="Image do perfil" />
+                                                    <img src="./profile2.png" alt="Image do perfil" />
                                                 </div>
                                                 <div>
                                                     <p>João</p>
@@ -148,7 +148,7 @@ function Header() {
                                             </a>
                                             <a href="#">
                                                 <div>
-                                                    <img src="/profile3.png" alt="Image do perfil infantil" />
+                                                    <img src="./profile3.png" alt="Image do perfil infantil" />
                                                 </div>
                                                 <div>
                                                     <p>Infantil</p>

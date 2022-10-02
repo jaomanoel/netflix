@@ -86,7 +86,7 @@ function Header() {
                                                     <div className='bottom'>
                                                         <div className='middle'>
                                                             <div className='top'>
-                                                                <img src="/notifly1.jpg" alt="notifly 1"/>
+                                                                <img src="./notifly1.jpg" alt="notifly 1"/>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -106,7 +106,7 @@ function Header() {
                                                     <div className='bottom'>
                                                         <div className='middle'>
                                                             <div className='top'>
-                                                                <img src="/notifly2.jpg" alt="notifly 2"/>
+                                                                <img src="./notifly2.jpg" alt="notifly 2"/>
                                                             </div>
                                                         </div>
                                                     </div>
